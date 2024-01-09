@@ -1,0 +1,30 @@
+a:hover {
+    color: brown;
+    background-color: rgb(43, 226, 83, 0.2);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: cadetblue;
+    background-color: chartreuse;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+    background-color: aqua;
+    text-decoration: dashed;
+}
+
+#myButton:link, #myButton:visited {
+    background-color: aqua;
+    color: aliceblue;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#myButton:hover, #myButton:active {
+    background-color: blue;
+}
