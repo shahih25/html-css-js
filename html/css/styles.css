@@ -1,0 +1,13 @@
+body {
+  background-color: aqua;
+}
+
+p {
+  background-color: bisque;
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 300%;
+  border: 5px solid blueviolet;
+  padding: 50px;
+  margin: 50px;
+}
