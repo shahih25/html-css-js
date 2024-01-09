@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Images</title>
+</head>
+<body>
+    <img src="flower.jpeg" alt="Flower of purple color">
+
+    <img src="wrong.jpeg" alt="Flower of purple color">
+
+    <img src="flower.jpeg" alt="Flower of purple color" style="height: 25px; width: 25px;">
+
+    <img src="flower.jpeg" alt="Flower of purple color" height="25px" width="25px">
+
+    <a href="https://www.google.com/">
+        <img src="flower.jpeg" alt="Flower of purple color">
+    </a>
+
+    <br>
+
+    <img src="flower.jpeg" alt="Flower of purple color" style="height: 25px; width: 25px; float: right;">
+
+    <img src="flower.jpeg" alt="Flower of purple color" style="height: 25px; width: 25px; float: left;">
+
+    <br>
+
+    <img src="flower.jpeg" alt="Flower of purple color" style="height: 250px; width: 250px;" usemap="#myMap">
+
+    <map name="myMap">
+        <area shape="rect" coords="34,44,270,350" href="flower.jpeg" alt="petal">
+        <area shape="circle" coords="2, 2, 30" href="flower.jpeg" alt="Flower" onclick="myFunc()">
+    </map>
+
+    <script>
+        function myFunc() {
+            alert("You clicked the circle");
+        }
+    </script>
+
+    <br>
+
+    <p style="background-image: url('flower.jpeg'); color: white; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">Paragraph with Images</p>
+</body>
+</html>
