@@ -42,5 +42,11 @@
     <br>
 
     <p style="background-image: url('flower.jpeg'); color: white; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">Paragraph with Images</p>
+
+    <picture>
+        <source media="(min-width: 650px)" srcset="flower.jpeg">
+        <source media="(min-width: 450px)" srcset="flower2.jpeg">
+        <img src="flower.jpeg" alt="Flower">
+    </picture>
 </body>
 </html>
